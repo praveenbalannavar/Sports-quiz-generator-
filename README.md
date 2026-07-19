@@ -48,20 +48,8 @@ This project was built to precisely fulfill the objectives and technical require
 
 ## 🔌 Setup & Installation Instructions
 
-### Prerequisite
-You will need a **Gemini API Key**. Get one from [Google AI Studio](https://aistudio.google.com/).
 
-### 1. Configure Environment Variables
-Copy `.env.example` to create a `.env` file in the root directory:
-```bash
-cp .env.example .env
-```
-Open `.env` and configure your Gemini API key:
-```env
-GEMINI_API_KEY=your_actual_gemini_api_key_here
-```
-
-### 2. Run the Development Server
+### 1. Run the Development Server
 Install dependencies and boot both the Vite development server and Express backend server concurrently on Port `3000`:
 ```bash
 # Install packages
@@ -72,7 +60,7 @@ npm run dev
 ```
 Open your browser and navigate to `http://localhost:3000`.
 
-### 3. Production Build & Execution
+### 2. Production Build & Execution
 To build and execute the application in production mode:
 ```bash
 # Bundle frontend static assets and compile the TypeScript backend server
